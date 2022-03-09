@@ -23,6 +23,11 @@ public class HolaMundo {
        char letra;
        double decimal;
                cadena = JOptionPane.showInputDialog("digite una cadena");
+               entero = Integer.parseInt(JOptionPane.showInputDialog("Digite un entero: "));
+               letra = JOptionPane.showInputDialog("Digite un caracter: ").charAt(0);
+               decimal = Double.parseDouble(JOptionPane.showInputDialog("Digite un decinal: "));
+               
+               
     }
     
 }
