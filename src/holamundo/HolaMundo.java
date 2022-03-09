@@ -17,12 +17,6 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("hola mundo");
-        System.out.println("asdasd");
-        System.out.println("asdasdsad");
-        System.out.println("adasd");
-        System.out.println("asdasdas");
-        System.out.println("asdasdsadasdsadsa");
-        System.out.println("color papel");
     }
     
 }
