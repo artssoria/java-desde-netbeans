@@ -6,6 +6,8 @@
  */
 package holamundo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author arturo
@@ -16,7 +18,11 @@ public class HolaMundo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+       String cadena;
+       int entero;
+       char letra;
+       double decimal;
+               cadena = JOptionPane.showInputDialog("digite una cadena");
     }
     
 }
